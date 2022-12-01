@@ -1,0 +1,57 @@
+/* ******* NAVBAR ******* */
+
+nav {
+	background: #333;
+	color: rgb(233, 233, 233);
+	line-height: 3rem;
+	padding-left: 1rem;
+}
+
+/* ******* BUTTONS ******* */
+
+.wrapper {
+	text-align: center;
+	margin: 2rem 0;
+}
+
+button {
+	background: rgb(241, 99, 99);
+	color: #fff;
+	padding: 1rem;
+	margin: 0.25rem;
+	border: none;
+	border-radius: 0.25rem;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #434343;
+	box-shadow: 5px 4px 20px rgba(0, 0, 0, 0.57);
+	transition: all 0.4s ease 0s;
+}
+
+/* ******* CARDS ******* */
+
+.cards-wrapper {
+	padding: 0 1rem;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.card {
+	width: 33%;
+	text-align: center;
+}
+
+.card-header {
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 1rem;
+	background-color: #f1f1f1;
+}
+
+.card-content {
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 1rem;
+	background-color: rgb(179, 179, 179);
+}
